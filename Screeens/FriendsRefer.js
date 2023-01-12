@@ -3,7 +3,7 @@ import React from 'react'
 
 const FriendsRefer = () => {
   return (
-    <View>
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>FriendsRefer</Text>
     </View>
   )

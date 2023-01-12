@@ -3,7 +3,7 @@ import React from 'react'
 
 const List = () => {
   return (
-    <View>
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>List</Text>
     </View>
   )

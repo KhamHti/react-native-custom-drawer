@@ -1,10 +1,10 @@
 import { Button, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Notification = ({navigation}) => {
+const MessageScreen = ({navigation}) => {
     return (
       <View style={style.container} >
-        <Text>Notification</Text>
+        <Text>Messages</Text>
         <Button onPress={() => navigation.navigate("Home")}
             title="Go back to home"
         />
@@ -12,7 +12,7 @@ const Notification = ({navigation}) => {
     );
 }
 
-export default Notification;
+export default MessageScreen;
 
 const style = StyleSheet.create({
     container: {

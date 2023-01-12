@@ -8,7 +8,7 @@ const HomeScreen = ({navigation}) => {
         <View style={{margin: 10}}>
             <Button 
             onPress={() => navigation.navigate('Notifications')}
-            title='Go to Noti'
+            title='Go to Messages'
             />
         </View>
     </View>

@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import HomeScreen from './Screeens/Home';
 import Setting from './Screeens/Setting';
-import Notification from './Screeens/Notification';
+import MessageScreen from './Screeens/MessageScreen';
 import Activity from './Screeens/Activity';
 import List from './Screeens/List';
 import Reports from './Screeens/Reports';
@@ -23,7 +23,7 @@ export default function App() {
       drawerContent={props => <SideMenu {...props} />}
       initialRouteName='Home'>
         <Drawer.Screen name='Home' component={HomeScreen} />
-        <Drawer.Screen name='Notifications' component={Notification} />
+        <Drawer.Screen name='MessageScreen' component={MessageScreen} />
         <Drawer.Screen name="Activity" component={Activity} />
         <Drawer.Screen name="List" component={List} />
         <Drawer.Screen name="Reports" component={Reports} />
